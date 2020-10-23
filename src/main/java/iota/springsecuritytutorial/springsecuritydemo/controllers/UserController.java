@@ -4,10 +4,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HomeController {
-	@RequestMapping("/")
+public class UserController {
+	@RequestMapping("/user")
 	private String display(){
-		return "<h1>Hello World</h1>";
+		return "<h1>Hello User</h1>";
 	}
 
 }

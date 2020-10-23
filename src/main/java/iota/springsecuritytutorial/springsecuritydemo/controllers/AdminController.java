@@ -4,10 +4,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HomeController {
-	@RequestMapping("/")
+public class AdminController {
+	@RequestMapping("/admin")
 	private String display(){
-		return "<h1>Hello World</h1>";
+		return "<h1>Hello Admin</h1>";
 	}
 
 }
